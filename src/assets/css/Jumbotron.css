@@ -1,0 +1,107 @@
+.jumbotron {
+  width: 95%;
+  margin: 10px auto;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 20px 5px;
+  border-radius: 10px;
+  display: grid;
+  grid-template-areas: "headline image";
+  grid-template-columns: 8fr 2fr;
+}
+
+.headline {
+  width: 712px;
+  margin: auto;
+  align-items: center;
+  display: grid;
+  grid-template-rows:
+    "headline"
+    "button";
+  grid-template-rows: 5fr 2fr;
+}
+
+.headline h1 {
+  font-size: 72px;
+  line-height: 81px;
+  font-weight: 800;
+  margin: 30px auto;
+  color: var(--primary);
+}
+
+.headline span {
+  color: var(--span);
+}
+
+.btn-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.catalog {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 36px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.search {
+  background-color: var(--highlight);
+  padding: 15px 40px;
+  border: 0;
+}
+
+.videos {
+  padding: 15px 50px;
+  background-color: var(--white);
+}
+
+.catalog img {
+  margin: auto 20px auto 0px;
+}
+
+.jumbo-image {
+  position: relative;
+}
+
+.jumbo-image img {
+  height: 100%;
+  border-radius: 0px 10px 10px 0px;
+}
+
+.desc-image {
+  position: absolute;
+  bottom: 100px;
+  margin-left: 45px;
+}
+
+.desc-image p {
+  font-size: 24px;
+  background-color: rgba(255, 255, 255, 0.5);
+  padding: 10px;
+  width: fit-content;
+  border-radius: 5px;
+  margin: 5px;
+}
+
+.desc-image h2 {
+  font-size: 64px;
+  font-weight: 400;
+  line-height: 77px;
+  color: var(--white);
+  margin: 5px;
+}
+
+.desc-image button {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: white;
+  background-color: var(--primary);
+  margin: 5px;
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+
+.desc-image img {
+  margin: auto 15px;
+}
