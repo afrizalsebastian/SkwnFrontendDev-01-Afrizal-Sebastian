@@ -1,5 +1,6 @@
 import React from "react";
 import imageJumbo from "../assets/image/jumbo-image.png";
+import imageJumboWide from "../assets/image/jumbo-wide.png";
 import search from "../assets/image/search.svg";
 import video from "../assets/image/video.svg";
 import rArraw from "../assets/image/right-arrow.svg";
@@ -25,7 +26,10 @@ function Jumbotron() {
           </div>
         </div>
         <div className="jumbo-image">
-          <img src={imageJumbo} alt="" />
+          <picture>
+            <source media="(min-width:1200px)" srcSet={imageJumbo} />
+            <img src={imageJumboWide} alt="" />
+          </picture>
           <div className="desc-image">
             <p>$329</p>
             <h2>Pösht Sofa</h2>

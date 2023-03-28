@@ -38,3 +38,21 @@
   background-color: var(--highlight);
   border-radius: 0px 3px 3px 0px;
 }
+
+@media (max-width: 576px) {
+  .email-section p {
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .email-section h1 {
+    font-size: 18px;
+    line-height: 28px;
+  }
+  .email-input input {
+    width: 75%;
+    font-size: 24px;
+    padding: 10px;
+    border: none;
+  }
+}

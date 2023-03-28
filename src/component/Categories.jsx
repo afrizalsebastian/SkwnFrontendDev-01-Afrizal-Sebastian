@@ -18,8 +18,8 @@ function Categories() {
   return (
     <div className="categories">
       <div className="img-categories">
-        <img src={cat1} alt="" />
-        <img src={cat2} alt="" />
+        <img className="hide" src={cat1} alt="" />
+        <img className="hide" src={cat2} alt="" />
         <img src={cat3} alt="" />
       </div>
       <div className="rec-categories">

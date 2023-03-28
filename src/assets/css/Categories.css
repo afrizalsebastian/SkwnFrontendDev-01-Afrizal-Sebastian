@@ -33,3 +33,45 @@
 .rec-wheel {
   width: 75%;
 }
+
+@media (max-width: 1460px) {
+  .categories {
+    width: fit-content;
+    display: block;
+    text-align: center;
+  }
+
+  .img-categories img {
+    margin: auto 20px auto 0px;
+  }
+  .rec-wheel {
+    margin: auto;
+    width: 75%;
+  }
+}
+
+@media (max-width: 992px) {
+  .categories {
+    width: 100%;
+  }
+
+  .hide {
+    display: none;
+  }
+}
+
+@media (max-width: 576px) {
+  .rec-categories h3 {
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .rec-categories h1 {
+    font-size: 18px;
+    line-height: 28px;
+  }
+
+  .rec-wheel {
+    width: 75%;
+  }
+}

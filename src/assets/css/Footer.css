@@ -9,7 +9,7 @@
 .left-side p {
   font-size: 16px;
   font-weight: 400;
-  margin: 30px auto;
+  margin: 50px auto;
 }
 
 .right-side {
@@ -27,4 +27,21 @@
 
 .right-side a {
   color: #667085;
+}
+
+@media (max-width: 992px) {
+  .footer {
+    padding: 100px 100px 20px;
+    display: grid;
+    grid-template-areas: "left right";
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .footer {
+    padding: 100px 100px 20px;
+    display: block;
+  }
 }

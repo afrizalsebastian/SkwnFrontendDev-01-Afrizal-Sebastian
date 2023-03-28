@@ -1,6 +1,7 @@
 import React from "react";
 import logo from "../assets/image/logo.svg";
 import shopBag from "../assets/image/shopping_bag.svg";
+import burger from "../assets/image/humburger.svg";
 import "../assets/css/Navbar.css";
 
 function Navbar() {
@@ -33,6 +34,11 @@ function Navbar() {
               <img src={shopBag} />
             </div>
           </div>
+        </div>
+        <div className="burger b-hide">
+          <a href="#">
+            <img src={burger} alt="" />
+          </a>
         </div>
       </div>
     </nav>

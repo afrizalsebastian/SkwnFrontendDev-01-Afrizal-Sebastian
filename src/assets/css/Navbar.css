@@ -56,3 +56,32 @@
   padding: 3px 3px;
   border-radius: 5px;
 }
+
+.b-hide {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .nav-container {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .logo img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .menu ul {
+    display: none;
+  }
+
+  .auth-cont > div {
+    display: none;
+  }
+
+  .b-hide {
+    display: flex;
+    align-items: center;
+  }
+}

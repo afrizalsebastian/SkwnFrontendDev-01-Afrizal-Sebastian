@@ -54,3 +54,39 @@
 .letter {
   padding: 0px 7.5px;
 }
+
+@media (max-width: 992px) {
+  .about {
+    text-align: center;
+    grid-template-rows:
+      1fr
+      2fr
+      1fr;
+  }
+
+  .more {
+    margin-top: 20px;
+    display: block;
+  }
+
+  .more p {
+    width: 100%;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 576px) {
+  .about {
+    display: block;
+  }
+  .about h2 {
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .about h1 {
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 36px;
+  }
+}

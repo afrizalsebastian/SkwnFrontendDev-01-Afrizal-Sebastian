@@ -25,3 +25,40 @@
 .brand img {
   width: 15%;
 }
+
+@media (max-width: 768px) {
+  .sponsor {
+    text-align: center;
+    display: block;
+  }
+
+  .num-sponsor h1 {
+    font-weight: 800;
+    font-size: 96px;
+    line-height: 116px;
+  }
+
+  .brand {
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .brand img {
+    width: 20%;
+  }
+}
+
+@media (max-width: 576px) {
+  .num-sponsor h1 {
+    font-weight: 800;
+    font-size: 48px;
+    line-height: unset;
+  }
+
+  .num-sponsor span {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: unset;
+  }
+}
