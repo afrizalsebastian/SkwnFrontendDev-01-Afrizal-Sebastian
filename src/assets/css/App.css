@@ -23,3 +23,14 @@ body {
 button {
   cursor: pointer;
 }
+
+@media (min-width: 1600px) {
+  body {
+    width: 1600px;
+    margin: auto;
+    background-color: var(--black);
+  }
+  #root {
+    background-color: var(--white);
+  }
+}

@@ -1,0 +1,40 @@
+.email-section {
+  width: 95%;
+  margin: 10px auto;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 20px 5px;
+  border-radius: 10px;
+  background-color: #fcfafa;
+}
+
+.email-section p {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 36px;
+  padding: 60px 75px;
+}
+
+.email-section h1 {
+  font-weight: 800;
+  font-size: 64px;
+  line-height: 78px;
+  padding: 0px 75px;
+}
+
+.email-input {
+  padding: 40px 75px;
+  display: flex;
+  align-items: center;
+}
+
+.email-input input {
+  width: 450px;
+  font-size: 24px;
+  padding: 10px;
+  border: none;
+}
+
+.email-input span {
+  padding: 17px;
+  background-color: var(--highlight);
+  border-radius: 0px 3px 3px 0px;
+}

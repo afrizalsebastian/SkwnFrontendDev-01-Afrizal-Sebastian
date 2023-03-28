@@ -5,6 +5,7 @@ import About from "./component/About";
 import Sponsor from "./component/Sponsor";
 import Categories from "./component/Categories";
 import Product from "./component/Product";
+import Email from "./component/Email";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <Sponsor />
       <Categories />
       <Product />
+      <Email />
     </div>
   );
 }
