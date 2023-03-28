@@ -21,7 +21,6 @@
 .menu ul {
   display: flex;
   justify-content: space-evenly;
-  list-style: none;
   height: 100%;
   align-items: center;
 }
