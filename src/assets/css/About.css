@@ -1,0 +1,56 @@
+.about {
+  background-color: var(--primary);
+  color: var(--highlight);
+  display: grid;
+  grid-template-areas:
+    "h2"
+    "h1"
+    "div";
+  grid-template-rows:
+    1fr
+    3fr
+    1fr;
+  padding: 50px 80px;
+}
+
+.about h2 {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 36px;
+}
+
+.about h1 {
+  font-weight: 800;
+  font-size: 72px;
+  line-height: 77px;
+}
+
+.more {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.more p {
+  width: 30%;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 36px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.icon {
+  color: #f4f4f4;
+  background-color: rgba(229, 240, 182, 0.5);
+  height: fit-content;
+  align-items: center;
+  display: flex;
+  padding: 7.5px;
+  margin: auto 15px;
+  border-radius: 5px;
+}
+
+.letter {
+  padding: 0px 7.5px;
+}
