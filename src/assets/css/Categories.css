@@ -12,6 +12,9 @@
 .img-categories img {
   margin: auto 20px auto 0px;
 }
+.rec-categories {
+  margin: 10px;
+}
 
 .rec-categories h3 {
   font-size: 24px;
