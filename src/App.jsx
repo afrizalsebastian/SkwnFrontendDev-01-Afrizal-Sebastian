@@ -3,6 +3,7 @@ import Navbar from "./component/Navbar";
 import "./assets/css/App.css";
 import Jumbotron from "./component/Jumbotron";
 import About from "./component/About";
+import Sponsor from "./component/Sponsor";
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <Navbar />
       <Jumbotron />
       <About />
+      <Sponsor />
     </div>
   );
 }
