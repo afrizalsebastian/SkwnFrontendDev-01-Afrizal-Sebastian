@@ -1,0 +1,32 @@
+.categories {
+  width: 95%;
+  height: fit-content;
+  margin: 10px auto;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 20px 5px;
+  border-radius: 10px;
+  display: grid;
+  grid-template-areas: "img rec";
+  grid-template-columns: 3fr 2fr;
+}
+
+.img-categories img {
+  margin: auto 20px auto 0px;
+}
+
+.rec-categories h3 {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 36px;
+  margin: 25px auto;
+}
+
+.rec-categories h1 {
+  font-weight: 800;
+  font-size: 48px;
+  line-height: 58px;
+  margin-bottom: 25px;
+}
+
+.rec-wheel {
+  width: 75%;
+}

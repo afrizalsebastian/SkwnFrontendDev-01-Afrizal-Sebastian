@@ -4,6 +4,8 @@ import "./assets/css/App.css";
 import Jumbotron from "./component/Jumbotron";
 import About from "./component/About";
 import Sponsor from "./component/Sponsor";
+import Recomendation from "./component/Recomendation";
+import Categories from "./component/Categories";
 
 function App() {
   return (
@@ -12,6 +14,7 @@ function App() {
       <Jumbotron />
       <About />
       <Sponsor />
+      <Categories />
     </div>
   );
 }

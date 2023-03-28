@@ -1,0 +1,23 @@
+.recomend {
+  cursor: pointer;
+  padding: 20px 10px;
+  background-color: #fcfafa;
+  border-radius: 5px;
+}
+
+.recomend h2 {
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 22px;
+}
+
+.recomend p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.expand {
+  background-color: var(--highlight);
+  padding: 20px 15px;
+}
